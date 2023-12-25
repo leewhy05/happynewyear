@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+.move{
+    margin-top: 16rem;
+}
+.lightning {
+    animation: lightning 1s infinite;
+  }
+  
+  @keyframes lightning {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
